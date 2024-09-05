@@ -1,0 +1,35 @@
+.add-product-container
+{
+    margin-left: 580px;;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    font-size: 28px; /* Slightly larger title */
+    margin-bottom: 20px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.add-product-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3700b3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-product-button:hover {
+    background-color:#6200ea;
+}
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
